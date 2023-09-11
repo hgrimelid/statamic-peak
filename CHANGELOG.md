@@ -1,5 +1,44 @@
 # Changelog
 
+## v15.5.1 (2023-09-11)
+
+### What's improved
+- Update Privacy Policy and Cookie Notice field instructions. 7732ac5b by @robdekort
+
+## v15.5 (2023-09-09)
+
+### What's new
+- Use Statamic Peak SEO Addon 7.0 and add new cookie notice fields. b8e36531 by @robdekort
+- Default to exporting form field display names instead of handles. 75875786 by @robdekort
+
+### What's changed
+- Remove unused fieldset. 32155ae3 by @robdekort
+
+## v15.4 (2023-08-31)
+
+### What's changed
+- Rename link blocks to cards and update button logic. c23579a7 by @robdekort
+
+### What's improved
+- Cleanup Vite config. #347 by @marcorieser
+- Update dependencies and rebuild assets. 84ee99c0 by @robdekort
+
+## v15.3 (2023-08-30)
+
+### What's improved
+- Use replicator instead of grid for link blocks. a901248d by @robdekort
+
+## v15.2 (2023-08-30)
+
+### What's improved
+- Updated German translations. #345 by @joschuba
+- Changelog tpyo's. #342 by @szepeviktor
+
+## v15.1 (2023-08-25)
+
+### What's changed
+- Norwegian Bokmål locale renamed from `no` to `nb` and updated. #341 by @hgrimelid
+
 ## v15.0 (2023-08-22)
 
 ### What's new
@@ -46,7 +85,7 @@
 - Add support for Statamic Peak SEO v5.0. f905135e by @robdekort
 
 ### What's improved
-- Update dependecies. 55412650 by @robdekort
+- Update dependencies. 55412650 by @robdekort
 
 ## v13.3 (2023-08-01)
 
@@ -189,7 +228,7 @@
 ## v11.1 (2023-03-09)
 
 ### What's improved
-- Move the Statamic conditonal field form helpers to the Statamic Peak Tools addon. b6e8e080 by @robdekort
+- Move the Statamic conditional field form helpers to the Statamic Peak Tools addon. b6e8e080 by @robdekort
 
 ## v11.0 (2023-03-09)
 
@@ -700,7 +739,7 @@
 ## v5.16 (2022-09-27)
 
 ### What's improved
-- Reset class parameter on buttons to avoid collissions. 9a53c281 by @robdekort
+- Reset class parameter on buttons to avoid collisions. 9a53c281 by @robdekort
 - Wait for the network being idle when generating social images to make sure assets are loaded. e94725f2 by @robdekort
 
 ## v5.15.1 (2022-09-14)
@@ -782,7 +821,7 @@
 ## v5.4.1 (2022-08-07)
 
 ### What's fixed
-- Reset class paramater as well to circumvent an unintended breaking Statamic change (#237) *only* for new users. 23b1c7ef by @robdekort
+- Reset class parameter as well to circumvent an unintended breaking Statamic change (#237) *only* for new users. 23b1c7ef by @robdekort
 
 ## v5.4 (2022-08-06)
 
@@ -1030,7 +1069,7 @@
 ## v3.48.0 (2022-01-17)
 
 ### What's new
-- Alias dark mode localStorage variable and dynamically update the `theme-color` meta tag when using dark mode and seperate normal/dark mode theme colors. f5a53e4b by @robdekort
+- Alias dark mode localStorage variable and dynamically update the `theme-color` meta tag when using dark mode and separate normal/dark mode theme colors. f5a53e4b by @robdekort
 
 ## v3.47.0 (2022-01-17)
 
@@ -1386,7 +1425,7 @@ Files new/changed:
 ## 3.4.1 (2021-09-15)
 
 ### What's fixed
-- Propertly include `x-trap`.
+- Properly include `x-trap`.
 
 ## 3.4 (2021-09-09)
 
@@ -1498,7 +1537,7 @@ Files new/changed:
 - Rename `bard` to `article` in `resources/views/search.antlers.html`.
 - Explain how redirects work better in `resources/blueprints/globals/redirects.yaml`.
 - Use a unique form ID per form in `resources/views/page_builder/_form.antlers.html`. Thanks [Daniel](https://github.com/klickreflex).
-- Seperate form fields from form logic in `resources/views/page_builder/_form.antlers.html` by adding `resources/views/snippets/_form_fields.antlers.html`. Thanks [Daniel](https://github.com/klickreflex).
+- Separate form fields from form logic in `resources/views/page_builder/_form.antlers.html` by adding `resources/views/snippets/_form_fields.antlers.html`. Thanks [Daniel](https://github.com/klickreflex).
 - Use placeholder data in `resources/views/vendor/statamic/forms/fields/text.antlers.html` and `resources/views/vendor/statamic/forms/fields/textarea.antlers.html`. Thanks [Sense and Image](https://github.com/SenseAndImage).
 - Exclude the sitemap from static caching in `config/statamic/static_caching.php`. Thanks [Sense and Image](https://github.com/SenseAndImage).
 
@@ -1534,7 +1573,7 @@ Files new/changed:
 ## 1.31.0 (2021-06-18)
 
 ### What's improved
-- Make cookie banner decline button actually readeable by default.
+- Make cookie banner decline button actually readable by default.
 - No more whitespace in the default textarea view in `resources/views/vendor/statamic/forms/fields/textarea.antlers.html`.
 Upgrade to AlpineJS v3:
 - Defer loading of the script tag in the document head in `resources/views/layout.antlers.html`.
@@ -1549,7 +1588,7 @@ Upgrade to AlpineJS v3:
 Upgrade to Tailwind 2.2:
 - Move `::selection` from the tailwind config to `resources/views/layout.antlers.html` as utility classes.
 - Added caret color utilities to the appropriate published form views.
-- Remove the now redudant `transform` utility (so is `filter` but we don't use it by default).
+- Remove the now redundant `transform` utility (so is `filter` but we don't use it by default).
 - Re-added an empty `safelist` array in `tailwind.config.js` since the JIT engine now supports protecting classes from being purged.
 
 ## 1.29.6 (2021-06-16)
@@ -1622,7 +1661,7 @@ Upgrade to Tailwind 2.2:
 
 ### What's new
 - The ability to auto generate social images based on a template you control. [Read the docs here](https://peak.1902.studio/features/social-images-generation.html).
-- Social images are now saved in a seperate asset container.
+- Social images are now saved in a separate asset container.
 
 ## 1.27.8 (2021-05-10)
 
@@ -1790,7 +1829,7 @@ Upgrade to Tailwind 2.2:
 
 ### What's new
 - Add Twitter `Summary Large Image` card support.
-- Propertly enforce `focus-visible` where applicable.
+- Properly enforce `focus-visible` where applicable.
 
 Peak now has it's own docs thanks to Robert Guss: [the Peak docs](https://peak.1902.studio).
 
@@ -1865,7 +1904,7 @@ Peak now has it's own docs thanks to Robert Guss: [the Peak docs](https://peak.1
 - Use Mailhog as the default SMTP config in `.env.example` since it's a local service and free, unlike Mailtrap, the Laravel default. Run `brew install mailhog`, `valet proxy mailhog http://127.0.0.1:8025` and catch your mails on `https://mailhog.test`.
 
 ### What's improved
-- Published the password reset blade views and removed rad mode to be in line with the login view. This method will likely improve siginificantly with the upcoming release of Statamic 3.1 containing white-labeling features.
+- Published the password reset blade views and removed rad mode to be in line with the login view. This method will likely improve significantly with the upcoming release of Statamic 3.1 containing white-labeling features.
 
 ## 1.20.3 (2021-02-09)
 
@@ -1882,7 +1921,7 @@ Peak now has it's own docs thanks to Robert Guss: [the Peak docs](https://peak.1
 
 ### What's new
 - The ability to override different favicons with custom assets.
-- The Tailwind breakpoint pill replaced by a toolbar in the top right corner. It also contains an edit button when you're logged in. The toolbar can be permantly fixed to your window by toggling the button. A great idea by [Kerns](https://github.com/kerns).
+- The Tailwind breakpoint pill replaced by a toolbar in the top right corner. It also contains an edit button when you're logged in. The toolbar can be permanently fixed to your window by toggling the button. A great idea by [Kerns](https://github.com/kerns).
 
 ### What's improved
 - Use fakerphp/faker instead of fzaninotto/faker. Thanks [Julius](https://github.com/Jubeki).
@@ -2011,12 +2050,12 @@ Peak now has it's own docs thanks to Robert Guss: [the Peak docs](https://peak.1
 ## 1.18.3 (2021-01-08)
 
 ### What's improved
-- Update `tailwind.config.js` proper key for `darkMode`, remove `future` and `expiremental` keys. Thanks [Vlad](https://github.com/vladdu).
+- Update `tailwind.config.js` proper key for `darkMode`, remove `future` and `experimental` keys. Thanks [Vlad](https://github.com/vladdu).
 
 ## 1.18.2 (2021-01-07)
 
 ### What's improved
-- Fix CSS selector and value so the negative margin bottom actually works on last childs with a class of `w-full` in the `outer-grid`. Thank you [Manuel](https://github.com/mnlmaier).
+- Fix CSS selector and value so the negative margin bottom actually works on last children with a class of `w-full` in the `outer-grid`. Thank you [Manuel](https://github.com/mnlmaier).
 
 ## 1.18.1 (2021-01-06)
 
